@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Social Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="login-screen">
+    <h2>Dashboard Login</h2>
+    <input id="password" type="password" placeholder="Enter dashboard password">
+    <button onclick="login()">Login</button>
+    <p id="login-error"></p>
+</div>
+
+<div id="dashboard" style="display:none;">
+    <h2>Send Message</h2>
+
+    <input id="channelId" placeholder="Channel ID">
+    <textarea id="message" placeholder="Message"></textarea>
+    <button onclick="sendMessage()">Send</button>
+
+    <p id="response"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
