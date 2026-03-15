@@ -1,5 +1,5 @@
 let AUTH_TOKEN = null;
-const WORKER_URL = "YOUR_WORKER_URL_HERE"; // <-- replace this
+const WORKER_URL = "https://workerforafriend.micaiahejardin.workers.dev/";
 
 function login() {
     const pw = document.getElementById("password").value;
